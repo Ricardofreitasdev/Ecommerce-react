@@ -1,0 +1,260 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Brincos de Prata",
+      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
+      "price": 150.0,
+      "promotionalPrice": 100.0,
+      "discount": "10%",
+      "freeShipping": 1,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brincos de Prata 2",
+      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
+      "price": 150.0,
+      "promotionalPrice": 100.0,
+      "discount": "10%",
+      "freeShipping": 1,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brincos de Prata 2",
+      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
+      "price": 150.0,
+      "promotionalPrice": 100.0,
+      "discount": "10%",
+      "freeShipping": 1,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brincos de Prata 2",
+      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
+      "price": 150.0,
+      "promotionalPrice": 100.0,
+      "discount": "10%",
+      "freeShipping": 1,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Brincos de Prata 2",
+      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
+      "price": 150.0,
+      "promotionalPrice": 100.0,
+      "discount": "10%",
+      "freeShipping": 1,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Brincos de Prata 2",
+      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
+      "price": 150.0,
+      "promotionalPrice": 100.0,
+      "discount": "10%",
+      "freeShipping": 1,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": 50.0
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Anéis",
+      "has_children": 1,
+      "children": [
+        {
+          "name": "Folheado",
+          "has_children": 1,
+          "children": [
+            {
+              "name": "anel"
+            },
+            {
+              "name": "solitária"
+            },
+            {
+              "name": "cristal"
+            },
+            {
+              "name": "pérola"
+            },
+            {
+              "name": "zircônia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brincos",
+      "has_children": 0,
+      "children": []
+    },
+    {
+      "id": 3,
+      "name": "colares",
+      "has_children": 0,
+      "children": []
+    },
+    {
+      "id": 4,
+      "name": "pingentes",
+      "has_children": 0,
+      "children": []
+    },
+    {
+      "id": 5,
+      "name": "pulserias",
+      "has_children": 0,
+      "children": []
+    },
+    {
+      "id": 6,
+      "name": "kit",
+      "has_children": 0,
+      "children": []
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "João",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in purus vitae, semper porttitor ligula. Sed egestas odio ut pretium aliquet.",
+      "date": "12/10/2020"
+    },
+    {
+      "id": 2,
+      "name": "Ricardo",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in purus vitae, semper porttitor ligula. Sed egestas odio ut pretium aliquet.",
+      "date": "12/10/2020"
+    },
+    {
+      "id": 3,
+      "name": "Maria",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in purus vitae, semper porttitor ligula. Sed egestas odio ut pretium aliquet.",
+      "date": "12/10/2020"
+    }
+  ],
+  "infos": {
+    "description": "© SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso prévio - CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX",
+    "phone": "(11) 999899-8888",
+    "email": "vendas@surijoias.com.br",
+    "support": "Das 9:00 as 17:00",
+    "extraPages": {
+      "institutional": [
+        {
+          "pageName": "Sobre nós",
+          "path": "/"
+        },
+        {
+          "pageName": "Trocas e Devoluções",
+          "path": "/"
+        },
+        {
+          "pageName": "Entregas e Prazos",
+          "path": "/"
+        },
+        {
+          "pageName": "Blog",
+          "path": "/"
+        }
+      ],
+      "help": [
+        {
+          "pageName": "Contato",
+          "path": "/"
+        },
+        {
+          "pageName": "Tire suas dúvidas",
+          "path": "/"
+        },
+        {
+          "pageName": "Garantia e Cuidados",
+          "path": "/"
+        }
+      ]
+    }
+  },
+  "banners": {
+    "fullbanners": [
+      {
+        "id": 1,
+        "src": "/banners/fullbanner.png",
+        "alt": "fullbanner title"
+      },
+      {
+        "id": 2,
+        "src": "/banners/fullbanner.png",
+        "alt": "fullbanner title"
+      },
+      {
+        "id": 3,
+        "src": "/banners/fullbanner.png",
+        "alt": "fullbanner title"
+      },
+      {
+        "id": 4,
+        "src": "/banners/fullbanner.png",
+        "alt": "fullbanner title"
+      }
+    ]
+  },
+  "logo": {
+    "header": "/logo/topo.svg",
+    "footer": "logo/footer.webp"
+  }
+}
