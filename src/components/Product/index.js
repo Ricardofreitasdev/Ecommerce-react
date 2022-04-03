@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Product({ id, name, image, price, promotionalPrice }) {
-  function addToCard(productId, value) {
-    console.log(productId, value);
+  const [add, setadd] = useState([]);
+
+  function addToCard(productId) {
+    setadd(productId);
   }
 
   return (
@@ -20,6 +22,8 @@ export default function Product({ id, name, image, price, promotionalPrice }) {
       >
         Adicionar a sacola
       </button>
+
+      <p>{add}</p>
     </div>
   );
 }
