@@ -5,7 +5,7 @@
 
   h4{
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: toRem(16);
     font-weight: bold;
   }
 
@@ -24,7 +24,7 @@
     margin-bottom: 15px;
 
     a{
-      font-size: 13px;
+      font-size: toRem(13);
       line-height: 23px;
       transition: $transition;
 
@@ -45,7 +45,7 @@
     }
 
     p{
-      font-size: 13px;
+      font-size: toRem(13);
       transition: $transition;
 
       &:hover{
@@ -67,7 +67,7 @@
     text-align: center;
 
     p{
-      font-size: 12px;
+      font-size: toRem(12);
       margin-bottom: 12px;
     }
   }

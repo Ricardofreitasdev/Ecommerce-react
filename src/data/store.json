@@ -256,6 +256,33 @@
         "src": "/banners/fullbanner.png",
         "alt": "fullbanner title"
       }
+    ],
+    "grid": [
+      {
+        "id": 1,
+        "src": "/categories/banner1.png",
+        "name": "Anéis"
+      },
+      {
+        "id": 2,
+        "src": "/categories/banner2.png",
+        "name": "Brincos"
+      },
+      {
+        "id": 3,
+        "src": "/categories/banner3.png",
+        "name": "Pingentes"
+      },
+      {
+        "id": 4,
+        "src": "/categories/banner4.png",
+        "name": "Pulseiras"
+      },
+      {
+        "id": 5,
+        "src": "/categories/banner5.png",
+        "name": "Colares"
+      }
     ]
   },
   "logo": {

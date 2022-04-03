@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WhatsappFloating() {
+export default function Whatsapp() {
   return (
     <div className="whatsapp">
       <img src="/icons/whatsapp_icon.svg" alt="whatsapp" />

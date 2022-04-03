@@ -4,13 +4,13 @@
 
   h2{
     text-align: center;
-    font-size: 25px;
+    font-size: toRem(25);
     text-transform: uppercase;
   }
 
   h4{
     text-align: center;
-    font-size: 14px;
+    font-size: toRem(14);
     color: #888686;
     font-weight: 200;
   }
@@ -35,6 +35,10 @@
       border: 1px solid $gray ;
       transition: $transition;
 
+      
+      &:hover{
+        border: 1px solid $dark ;
+      }
 
       &:focus{
         border: 1px solid $dark ;

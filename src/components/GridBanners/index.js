@@ -1,5 +1,32 @@
 import React from "react";
+import useStore from "../../hooks/useStore";
 
 export default function GridBanners() {
-  return <div>GridBanners</div>;
+  const { banners, loading } = useStore();
+
+  return (
+    <div className="container">
+      {loading ? (
+        "carregando..."
+      ) : (
+        <div className="grid">
+          {banners.grid.map((banner, index) => (
+            <div
+              className={
+                index === 4 ? "grid__item grid__item--vertical" : "grid__item"
+              }
+            >
+              <img
+                key={banner.id}
+                src={banner.src}
+                alt={banner.name}
+                loading="lazy"
+              />
+              <h4>{banner.name}</h4>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
