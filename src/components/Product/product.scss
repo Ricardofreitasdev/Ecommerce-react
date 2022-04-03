@@ -1,18 +1,139 @@
 .product {
   background-color: rgb(255, 255, 255);
   padding: 10px;
+  position: relative;
 
   &:hover {
     .product__button {
       visibility: visible;
       opacity: 1;
-      transform: translateY(0);
+      transform: translateY(-50px);
     }
+
+    .product__spy {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(-300px);
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__discount {
+    position: absolute;
+    padding: 5px 11px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: $dark;
+    z-index: 99;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    p {
+      padding: 4px 18px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      transition: $transition;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &--hot {
+      background-color: $dark;
+    }
+
+    &--shipping {
+      background-color: $text-gray;
+    }
+  }
+
+  &__name {
+    font-size: toRem(14);
+    font-weight: 600;
+    color: $dark;
+  }
+
+  &__image {
+    height: 310px;
+    margin: 0 auto;
   }
 
   &__button {
     opacity: 0;
-    transform: translateY(-50%);
+    transform: translateY(-240px);
     transition: $transition;
+    background-color: $dark;
+    padding: 12px 30px;
+    border-radius: 30px;
+    gap: 5px;
+    color: #fff;
+    font-size: toRem(14);
+    font-weight: 700;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__spy {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: $transition;
+    background-color: $gray;
+    padding: 8px 16px;
+    border-radius: 30px;
+    gap: 5px;
+    color: $text-gray;
+    font-size: toRem(14);
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    height: 100%;
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    margin: 20px 0 16px;
+    font-weight: bold;
+
+    &--original {
+      color: $text-gray;
+      font-size: toRem(11);
+    }
+
+    &--promotional {
+      color: $dark;
+      font-size: toRem(16);
+    }
+
+    &--installments {
+      font-weight: 200;
+      font-size: toRem(12);
+    }
   }
 }

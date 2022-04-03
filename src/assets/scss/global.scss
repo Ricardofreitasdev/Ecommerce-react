@@ -16,12 +16,16 @@ li {
 
 html {
   overflow-x: hidden;
-
 }
 
-input, button {
+input,
+button {
   border: none;
   outline: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {

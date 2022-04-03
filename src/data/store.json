@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "name": "Brincos banhado a ouro com zircônia ",
+      "name": "Brincos banhado a ouro com zircônia",
       "image": "/products/product01.png",
-      "price": 100.0,
-      "promotionalPrice": 90.0,
+      "price": "100,00",
+      "promotionalPrice": "90,00",
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -14,7 +14,8 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 45.0
+          "value": "45,00",
+          "taxes": "sem juros"
         }
       ]
     },
@@ -22,8 +23,8 @@
       "id": 2,
       "name": "Brincos banhado a ouro com zircônia",
       "image": "/products/product02.png",
-      "price": 100.0,
-      "promotionalPrice": 90.0,
+      "price": "100,00",
+      "promotionalPrice": "90,00",
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -32,70 +33,74 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 45.0
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Brincos banhado a ouro com zircônia",
-      "image": "/products/product03.png",
-      "price": 100.0,
-      "promotionalPrice": 90.0,
-      "discount": "10%",
-      "freeShipping": 1,
-      "hot": 1,
-      "payment": [
-        {
-          "type": "credit_card",
-          "name": "Cartão Mastercard",
-          "plots": 2,
-          "value": 45.0
+          "value": "45,00",
+          "taxes": "sem juros"
         }
       ]
     },
     {
       "id": 3,
       "name": "Brincos banhado a ouro com zircônia",
-      "image": "/products/product04.png",
-      "price": 100.0,
-      "promotionalPrice": 90.0,
+      "image": "/products/product03.png",
+      "price": "100,00",
+      "promotionalPrice": "90,00",
       "discount": "10%",
-      "freeShipping": 1,
-      "hot": 1,
+      "freeShipping": 0,
+      "hot": 0,
       "payment": [
         {
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 45.0
+          "value": "45,00",
+          "taxes": "sem juros"
         }
       ]
     },
     {
       "id": 4,
       "name": "Brincos banhado a ouro com zircônia",
-      "image": "/products/product01.png",
-      "price": 100.0,
-      "promotionalPrice": 90.0,
+      "image": "/products/product04.png",
+      "price": "100,00",
+      "promotionalPrice": "90,00",
       "discount": "10%",
       "freeShipping": 1,
-      "hot": 1,
+      "hot": 0,
       "payment": [
         {
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 45.0
+          "value": "45,00",
+          "taxes": "sem juros"
         }
       ]
     },
     {
       "id": 5,
       "name": "Brincos banhado a ouro com zircônia",
+      "image": "/products/product01.png",
+      "price": "100,00",
+      "promotionalPrice": "90,00",
+      "discount": "10%",
+      "freeShipping": 0,
+      "hot": 1,
+      "payment": [
+        {
+          "type": "credit_card",
+          "name": "Cartão Mastercard",
+          "plots": 2,
+          "value": "45,00",
+          "taxes": "sem juros"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Brincos banhado a ouro com zircônia",
       "image": "/products/product02.png",
-      "price": 100.0,
-      "promotionalPrice": 90.0,
+      "price": "100,00",
+      "promotionalPrice": "90,00",
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -104,7 +109,8 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 45.0
+          "value": "45,00",
+          "taxes": "sem juros"
         }
       ]
     }
