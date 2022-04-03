@@ -8,11 +8,13 @@ export default function useStore() {
   const [categories, setCategories] = useState([]);
   const [banners, setBanners] = useState([]);
   const [logos, setLogos] = useState([]);
+  const [ruler, setRuler] = useState([]);
 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     try {
+      setRuler(store.ruler);
       setBanners(store.banners);
       setTestimonials(store.testimonials);
       setProducts(store.products);
@@ -24,5 +26,14 @@ export default function useStore() {
     }
   }, []);
 
-  return { products, testimonials, infos, categories, banners, loading, logos };
+  return {
+    products,
+    testimonials,
+    infos,
+    categories,
+    banners,
+    loading,
+    logos,
+    ruler,
+  };
 }

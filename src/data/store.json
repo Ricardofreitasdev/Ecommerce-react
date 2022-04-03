@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "name": "Brincos de Prata",
-      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
-      "price": 150.0,
-      "promotionalPrice": 100.0,
+      "name": "Brincos banhado a ouro com zircônia ",
+      "image": "/products/product01.png",
+      "price": 100.0,
+      "promotionalPrice": 90.0,
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -14,16 +14,16 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 50.0
+          "value": 45.0
         }
       ]
     },
     {
       "id": 2,
-      "name": "Brincos de Prata 2",
-      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
-      "price": 150.0,
-      "promotionalPrice": 100.0,
+      "name": "Brincos banhado a ouro com zircônia",
+      "image": "/products/product02.png",
+      "price": 100.0,
+      "promotionalPrice": 90.0,
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -32,16 +32,16 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 50.0
+          "value": 45.0
         }
       ]
     },
     {
       "id": 2,
-      "name": "Brincos de Prata 2",
-      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
-      "price": 150.0,
-      "promotionalPrice": 100.0,
+      "name": "Brincos banhado a ouro com zircônia",
+      "image": "/products/product03.png",
+      "price": 100.0,
+      "promotionalPrice": 90.0,
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -50,16 +50,16 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 50.0
+          "value": 45.0
         }
       ]
     },
     {
       "id": 3,
-      "name": "Brincos de Prata 2",
-      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
-      "price": 150.0,
-      "promotionalPrice": 100.0,
+      "name": "Brincos banhado a ouro com zircônia",
+      "image": "/products/product04.png",
+      "price": 100.0,
+      "promotionalPrice": 90.0,
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -68,16 +68,16 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 50.0
+          "value": 45.0
         }
       ]
     },
     {
       "id": 4,
-      "name": "Brincos de Prata 2",
-      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
-      "price": 150.0,
-      "promotionalPrice": 100.0,
+      "name": "Brincos banhado a ouro com zircônia",
+      "image": "/products/product01.png",
+      "price": 100.0,
+      "promotionalPrice": 90.0,
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -86,16 +86,16 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 50.0
+          "value": 45.0
         }
       ]
     },
     {
       "id": 5,
-      "name": "Brincos de Prata 2",
-      "image": "https://user-images.githubusercontent.com/86011816/160301123-65e6e550-94c8-47ca-8f62-08bbf3b99474.png",
-      "price": 150.0,
-      "promotionalPrice": 100.0,
+      "name": "Brincos banhado a ouro com zircônia",
+      "image": "/products/product02.png",
+      "price": 100.0,
+      "promotionalPrice": 90.0,
       "discount": "10%",
       "freeShipping": 1,
       "hot": 1,
@@ -104,7 +104,7 @@
           "type": "credit_card",
           "name": "Cartão Mastercard",
           "plots": 2,
-          "value": 50.0
+          "value": 45.0
         }
       ]
     }
@@ -192,8 +192,13 @@
   "infos": {
     "description": "© SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso prévio - CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX",
     "phone": "(11) 999899-8888",
+    "phoneIcon": "/icons/whatsapp_icon.svg",
     "email": "vendas@surijoias.com.br",
+    "emailIcon": "/icons/email_icon.svg",
     "support": "Das 9:00 as 17:00",
+    "supportIcon": "/icons/clock.svg",
+    "facebookIcon": "/icons/facebook_icon.svg",
+    "instagramIcon": "/icons/instagram_icon.svg",
     "extraPages": {
       "institutional": [
         {
@@ -256,5 +261,19 @@
   "logo": {
     "header": "/logo/topo.svg",
     "footer": "logo/footer.webp"
-  }
+  },
+  "ruler": [
+    {
+      "id": 1,
+      "icon": "/icons/freight-icon.svg",
+      "title": "Frete grátis",
+      "text": "nas compras acima de R$ 299,00"
+    },
+    {
+      "id": 2,
+      "icon": "/icons/card-credit.svg",
+      "title": "6x sem juros",
+      "text": "no cartão de crédito"
+    }
+  ]
 }

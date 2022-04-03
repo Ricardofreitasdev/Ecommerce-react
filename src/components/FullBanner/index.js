@@ -22,7 +22,12 @@ export default function FullBanner() {
       ) : (
         <Slider {...settings}>
           {banners.fullbanners.map((banner) => (
-            <img key={banner.id} src={banner.src} alt={banner.alt} />
+            <img
+              key={banner.id}
+              src={banner.src}
+              alt={banner.alt}
+              loading="lazy"
+            />
           ))}
         </Slider>
       )}

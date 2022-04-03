@@ -1,0 +1,67 @@
+.newsletter {
+  margin: 75px 0;
+  display: flex;
+
+  h2{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+  h4{
+    text-align: center;
+    font-size: 14px;
+    color: #888686;
+    font-weight: 200;
+  }
+
+  &__form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+    @media (max-width: $tablet){
+     flex-direction: column;
+    }
+
+    &--name, &--email{
+      flex: 2;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 50px;
+      height: 50px;
+      background-color: $gray;
+      border: 1px solid $gray ;
+      transition: $transition;
+
+
+      &:focus{
+        border: 1px solid $dark ;
+      }
+
+      @media (max-width: $tablet){
+        width: 100%;
+       }
+    }
+
+    button{
+      flex: 1;
+      margin-left: 10px;
+      border-radius: 50px;
+      height: 50px;
+      background-color: $dark;
+      color: #fff;
+      text-transform: uppercase;
+
+      @media (max-width: $tablet){
+      width: 50%;
+      height: 50px;
+      flex: unset;
+      margin-left: 0px;
+       }
+
+    }
+  }
+
+}

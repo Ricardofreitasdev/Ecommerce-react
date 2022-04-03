@@ -1,9 +1,74 @@
 .footer {
   background-color: $gray;
   width: 100%;
+  padding: 30px 0;
+
+  h4{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
   &__wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: $tablet){
+      flex-direction: column;
+  }
+
+  }
+
+  &__item{
+    margin-bottom: 15px;
+
+    a{
+      font-size: 13px;
+      line-height: 23px;
+      transition: $transition;
+
+      &:hover{
+        color: $text-hover;
+      }
+    }
+  }
+
+  &__contact {
+    display: flex;
+    margin-bottom: 10px;
+    transition: $transition;
+
+    img{
+      width: 15px;
+      margin-right: 10px;
+    }
+
+    p{
+      font-size: 13px;
+      transition: $transition;
+
+      &:hover{
+        color: $text-hover;
+      }
+    }
+  }
+
+  &__social-list{
+    img{
+      height: 21px;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+  }
+
+  &__message{
+    padding: 20px;
+    text-align: center;
+
+    p{
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
   }
 }
