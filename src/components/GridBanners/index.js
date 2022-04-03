@@ -1,5 +1,6 @@
 import React from "react";
 import useStore from "../../hooks/useStore";
+import "./grid.scss";
 
 export default function GridBanners() {
   const { banners, loading } = useStore();
