@@ -1,15 +1,11 @@
-import { createContext, useState } from "react";
+import { createContext, useMemo, useState } from "react";
 
 const CartContext = createContext({});
 
 function CartProvider({ children }) {
   const [price, setprice] = useState(0);
-
-  return (
-    <CartContext.Provider value={{ price, setprice }}>
-      {children}
-    </CartContext.Provider>
-  );
+  const values = useMemo(() => ({ price, setprice }), [price, setprice]);
+  return <CartContext.Provider value={values}>{children}</CartContext.Provider>;
 }
 
 export { CartProvider };

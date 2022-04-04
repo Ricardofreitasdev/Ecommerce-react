@@ -5,7 +5,7 @@ export default function Whatsapp() {
   const { price, setprice } = useContext(CartContext);
 
   function addCart() {
-    setprice(50);
+    setprice(price + 50);
   }
 
   return (
