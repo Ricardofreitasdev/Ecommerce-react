@@ -9,11 +9,10 @@ import Newsletter from "../../components/Newsletter";
 import Ruler from "../../components/Ruler";
 import Showcase from "../../components/Showcase";
 import Testimonials from "../../components/Testimonials";
-import Whatsapp from "../../components/Whatsapp";
 
 export default function Home() {
   return (
-    <main>
+    <main className="page__home">
       <Header />
       <Categories />
       <FullBanner />
@@ -24,7 +23,6 @@ export default function Home() {
       <Testimonials />
       <Newsletter />
       <Footer />
-      <Whatsapp />
     </main>
   );
 }

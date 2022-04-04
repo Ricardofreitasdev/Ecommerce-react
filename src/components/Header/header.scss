@@ -4,10 +4,103 @@
   height: 120px;
   display: flex;
   align-items: center;
+  padding: 15px 0;
+
+  @media (max-width: $tablet) {
+    height: auto;
+  }
+
+  &__name {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+  }
 
   &__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  &__search {
+    display: flex;
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
+
+  &__nav-mobile {
+    display: none;
+
+    button {
+      background: none;
+    }
+
+    @media (max-width: $tablet) {
+      display: block;
+    }
+  }
+
+  &__infos {
+    display: flex;
+
+    &--wrapper {
+      @media (max-width: $tablet) {
+        display: none;
+      }
+    }
+  }
+
+  &__logo {
+    img {
+      width: 100%;
+    }
+    @media (max-width: $tablet) {
+      width: 90px;
+    }
+  }
+
+  &__mobile {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    transition: $transition;
+    z-index: 99;
+    padding: 15px;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateX(-100%);
+
+    &--wrapper {
+      position: relative;
+
+      p {
+        display: block;
+        margin: 15px 0;
+      }
+
+      ul {
+        border-top: 1px solid $dark;
+      }
+
+      img {
+        width: 15px;
+      }
+    }
+
+    &--close {
+      position: absolute;
+      background: none;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &__mobile.open {
+    opacity: 1;
+    overflow: visible;
+    transform: translateX(0);
+    top: 0;
   }
 }
