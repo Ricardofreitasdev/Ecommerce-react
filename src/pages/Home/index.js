@@ -9,20 +9,25 @@ import Newsletter from "../../components/Newsletter";
 import Ruler from "../../components/Ruler";
 import Showcase from "../../components/Showcase";
 import Testimonials from "../../components/Testimonials";
+import Whatsapp from "../../components/Whatsapp";
+import { CartProvider } from "../../context/CartContext";
 
 export default function Home() {
   return (
     <main className="page__home">
-      <Header />
-      <Categories />
-      <FullBanner />
-      <Ruler />
-      <GridBanners />
-      <Showcase />
-      <MiddleBanner />
-      <Testimonials />
-      <Newsletter />
-      <Footer />
+      <CartProvider>
+        <Header />
+        <Categories />
+        <FullBanner />
+        <Ruler />
+        <GridBanners />
+        <Showcase />
+        <MiddleBanner />
+        <Testimonials />
+        <Newsletter />
+        <Footer />
+        <Whatsapp />
+      </CartProvider>
     </main>
   );
 }

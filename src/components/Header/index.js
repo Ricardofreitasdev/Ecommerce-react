@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import CartContext from "../../context/CartContext";
 import useStore from "../../hooks/useStore";
 import Cart from "../Cart";
 
 export default function Header() {
   const { logos } = useStore();
   const { categories } = useStore();
+  const { price } = useContext(CartContext);
 
   const [OpenMenu, setOpenMenu] = useState(false);
 
@@ -35,6 +37,7 @@ export default function Header() {
             <span>fone</span>
           </div>
           <Cart />
+          <span>{price}</span>
         </div>
       </div>
 
