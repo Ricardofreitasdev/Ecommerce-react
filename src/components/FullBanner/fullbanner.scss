@@ -1,7 +1,46 @@
 .fullbanner {
   position: relative;
+  padding-top: 150px;
+
+  @media (max-width: $tablet) {
+    padding-top: 83px;
+  }
+
   .slick-dots {
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
+  }
+  .slick-arrow {
+    z-index: 99;
+  }
+
+  .slick-prev {
+    @media (max-width: $tablet) {
+      display: none !important;
+    }
+
+    left: 15%;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .slick-next {
+    right: 15%;
+
+    @media (max-width: $tablet) {
+      display: none !important;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .slick-dots li button:before {
+    color: #fff;
+    font-size: 10px;
+    opacity: 0.95;
   }
 }

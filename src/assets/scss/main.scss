@@ -1,7 +1,7 @@
 @import "./configs";
 @import "./global.scss";
 @import "../../pages/Home/home.scss";
-@import "../../components/Categories/categories.scss";
+@import "../../components/MenuCategories/categories.scss";
 @import "../../components/Footer/footer.scss";
 @import "../../components/FullBanner/fullbanner.scss";
 @import "../../components/Header/header.scss";
@@ -12,3 +12,6 @@
 @import "../../components/Whatsapp/whatsapp.scss";
 @import "../../components/Newsletter/newsletter.scss";
 @import "../../components/MiddleBanner/middlebanner.scss";
+@import "../../components/Search/search.scss";
+@import "../../components/Cart/cart.scss";
+@import "../../components/Showcase/showcase.scss";

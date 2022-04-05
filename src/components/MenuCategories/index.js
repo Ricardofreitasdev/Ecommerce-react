@@ -1,7 +1,7 @@
 import React from "react";
 import useStore from "../../hooks/useStore";
 
-export default function Categories() {
+export default function MenuCategories() {
   const { categories } = useStore();
 
   return (

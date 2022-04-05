@@ -42,7 +42,12 @@ export default function Product({
         espiar
       </button>
       <button className="product__button" type="button">
-        Adicionar a sacola
+        <img
+          src="/banners/cart_icon.png"
+          loading="lazy"
+          alt="icone de sacola"
+        />
+        <p>Adicionar à sacola</p>
       </button>
     </div>
   );

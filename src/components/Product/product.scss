@@ -78,22 +78,27 @@
   &__button {
     opacity: 0;
     transform: translateY(-240px);
-    transition: $transition;
+    transition: $transitionSlow;
     background-color: $dark;
     padding: 12px 30px;
     border-radius: 30px;
     gap: 5px;
     color: #fff;
     font-size: toRem(14);
-    font-weight: 700;
+    font-weight: 500;
     display: flex;
     margin: 0 auto;
+    align-items: center;
+
+    img {
+      max-width: 15px;
+    }
   }
 
   &__spy {
     opacity: 0;
     transform: translateY(-50px);
-    transition: $transition;
+    transition: $transitionSlow;
     background-color: $gray;
     padding: 8px 16px;
     border-radius: 30px;

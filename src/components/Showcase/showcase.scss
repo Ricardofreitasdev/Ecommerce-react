@@ -1,0 +1,7 @@
+.showcase {
+  .slick-arrow {
+    @media (max-width: $tablet) {
+      display: none !important;
+    }
+  }
+}

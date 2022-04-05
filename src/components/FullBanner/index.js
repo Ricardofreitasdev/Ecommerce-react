@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import useStore from "../../hooks/useStore";
+import { NextArrow, PrevArrow } from "../Arrows";
 
 export default function FullBanner() {
   const { banners, loading } = useStore();
@@ -13,6 +14,8 @@ export default function FullBanner() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
 
   return (

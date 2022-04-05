@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import useStore from "../../hooks/useStore";
+import { PrevArrow, NextArrow } from "../Arrows";
 import Product from "../Product";
 
 export default function Showcase() {
@@ -14,6 +15,8 @@ export default function Showcase() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -27,6 +30,8 @@ export default function Showcase() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          dots: true,
+          arrows: false,
         },
       },
       {
@@ -34,13 +39,15 @@ export default function Showcase() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
+          arrows: false,
         },
       },
     ],
   };
 
   return (
-    <div className="container">
+    <div className="showcase container">
       <Slider {...settings}>
         {products.map((product) => (
           <Product {...product} key={product.id} />
