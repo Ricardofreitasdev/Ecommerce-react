@@ -13,16 +13,12 @@ export default function GridBanners() {
         <div className="grid">
           {banners.grid.map((banner, index) => (
             <div
+              key={banner.id}
               className={
                 index === 4 ? "grid__item grid__item--vertical" : "grid__item"
               }
             >
-              <img
-                key={banner.id}
-                src={banner.src}
-                alt={banner.name}
-                loading="lazy"
-              />
+              <img src={banner.src} alt={banner.name} loading="lazy" />
               <h4>{banner.name}</h4>
             </div>
           ))}

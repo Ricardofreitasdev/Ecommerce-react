@@ -31,7 +31,7 @@ export default function Product({
             <b>por R$ {promotionalPrice}</b>
           </span>
           {payment.map((item) => (
-            <p className="product__price--installments">
+            <p key={item.id} className="product__price--installments">
               {item.plots}X de R${item.value} {item.taxes}
             </p>
           ))}
