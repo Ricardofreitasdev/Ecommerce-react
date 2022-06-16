@@ -81,7 +81,6 @@ export default function Footer() {
       </footer>
       <div className="footer__message container">
         <p>{infos.description}</p>
-        <img loading="lazy" src="/logo/footer.webp" alt="logo rodapé" />
       </div>
     </>
   );

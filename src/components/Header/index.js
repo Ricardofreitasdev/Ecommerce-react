@@ -5,7 +5,6 @@ import MenuCategories from "../MenuCategories";
 import Search from "../Search";
 
 export default function Header() {
-  const { logos } = useStore();
   const { categories } = useStore();
 
   const [OpenMenu, setOpenMenu] = useState(false);
@@ -29,10 +28,7 @@ export default function Header() {
           </div>
 
           <div className="header__logo">
-            <h1 className="header__name">E-commerce com React</h1>
-            <a href="/">
-              <img src={logos.header} alt="logo" />
-            </a>
+            <h1 className="header__name">Logo</h1>
           </div>
           <div className="header__infos">
             <div className="header__login">

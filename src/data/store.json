@@ -196,10 +196,10 @@
     }
   ],
   "infos": {
-    "description": "© SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso prévio - CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX",
+    "description": "© exemplo JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso prévio - CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX",
     "phone": "(11) 999899-8888",
     "phoneIcon": "/icons/whatsapp_icon.svg",
-    "email": "vendas@surijoias.com.br",
+    "email": "email@exemplo.com.br",
     "emailIcon": "/icons/email_icon.svg",
     "support": "Das 9:00 as 17:00",
     "supportIcon": "/icons/clock.svg",
